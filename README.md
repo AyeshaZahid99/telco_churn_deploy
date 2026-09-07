@@ -8,7 +8,7 @@ Two small services, tested end-to-end in this environment:
   touches the `.pkl` files directly, so it can be deployed completely
   separately from the model.
 
-## ⚠️ Critical finding — you must read this before deploying
+## ⚠️ Critical 
 
 The delivered `pipeline2.pkl` contains a custom transformer
 (`SeniorCitizenTransformer`) that was saved with `dill` from a **Google Colab
